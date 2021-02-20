@@ -1,0 +1,31 @@
+{
+  "name": "rfcs",
+  "version": "1.0.0",
+  "description": "RFCs for changes to TiDB community infra",
+  "scripts": {
+    "lint": "prettier --check .",
+    "lint:fix": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ti-community-infra/rfcs.git"
+  },
+  "keywords": [
+    "rfc"
+  ],
+  "author": "hi-rustin",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ti-community-infra/rfcs/issues"
+  },
+  "homepage": "https://github.com/ti-community-infra/rfcs#readme",
+  "devDependencies": {
+    "husky": "^5.0.9",
+    "prettier": "^2.2.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  }
+}
