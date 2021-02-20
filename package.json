@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "RFCs for changes to TiDB community infra",
   "scripts": {
-    "lint": "prettier --check .",
-    "lint:fix": "prettier --write ."
+    "lint": "prettier --check \".\"",
+    "lint:fix": "prettier --write \".\""
   },
   "repository": {
     "type": "git",
