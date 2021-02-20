@@ -1,4 +1,5 @@
 # TiDB community infra RFCs
+
 RFCs for changes to TiDB community infra
 
 ## What is an RFC?
@@ -31,7 +32,6 @@ changes to one of the projects listed below:
 - [tichi](https://github.com/ti-community-infra/tichi)
 - [ti-challenge-bot](https://github.com/ti-community-infra/ti-challenge-bot)
 - [ti-sync-bot](https://github.com/ti-community-infra/ti-sync-bot)
-
 
 What constitutes a "substantial" change is evolving based on community norms, but may include the following:
 
@@ -72,29 +72,29 @@ RFC merged into the RFC repo as a markdown file. At that point the RFC
 is 'active' and may be implemented with the goal of eventual inclusion
 into TiDB community infra.
 
-* Fork the RFC repo https://github.com/ti-community-infra/rfcs
+- Fork the RFC repo https://github.com/ti-community-infra/rfcs
 
-* Copy `0000-template.md` to `src/0000-my-feature.md` (where
-'my-feature' is descriptive. don't assign an RFC number yet).
+- Copy `0000-template.md` to `src/0000-my-feature.md` (where
+  'my-feature' is descriptive. don't assign an RFC number yet).
 
-* Fill in the RFC. Put care into the details: **RFCs that do not
-present convincing motivation, demonstrate understanding of the
-impact of the design, or are disingenuous about the drawbacks or
-alternatives tend to be poorly-received**.
+- Fill in the RFC. Put care into the details: **RFCs that do not
+  present convincing motivation, demonstrate understanding of the
+  impact of the design, or are disingenuous about the drawbacks or
+  alternatives tend to be poorly-received**.
 
-* Submit a pull request. Make sure to follow the pull request template and open a corresponding discussion thread.
+- Submit a pull request. Make sure to follow the pull request template and open a corresponding discussion thread.
 
-* Build consensus and integrate feedback in the discussion thread. RFCs that have broad support are much more likely to make progress than those that don't receive any comments.
+- Build consensus and integrate feedback in the discussion thread. RFCs that have broad support are much more likely to make progress than those that don't receive any comments.
 
-* Eventually, the [core team] will decide whether the RFC is a candidate
-for inclusion in TiDB community infra.
+- Eventually, the [core team] will decide whether the RFC is a candidate
+  for inclusion in TiDB community infra.
 
-* An RFC can be modified based upon feedback from the [core team] and community. Significant modifications may trigger a new final comment period.
+- An RFC can be modified based upon feedback from the [core team] and community. Significant modifications may trigger a new final comment period.
 
-* An RFC may be rejected after public discussion has settled
-and comments have been made summarizing the rationale for rejection. A member of the [core team] should then close the RFC's associated pull request.
+- An RFC may be rejected after public discussion has settled
+  and comments have been made summarizing the rationale for rejection. A member of the [core team] should then close the RFC's associated pull request.
 
-* An RFC may be accepted at the close of its final comment period. A [core team] member will merge the RFC's associated pull request, at which point the RFC will become 'active'.
+- An RFC may be accepted at the close of its final comment period. A [core team] member will merge the RFC's associated pull request, at which point the RFC will become 'active'.
 
 ## Details on Active RFCs
 
@@ -135,8 +135,8 @@ pull requests on a regular basis. If a core team member believes an RFC PR is re
 
 **TiDB Community Infra's RFC process owes its inspiration to the [React RFC process], [Rust RFC process], [Vue RFC process] and [Ember RFC process]**
 
-[React RFC process]: https://github.com/reactjs/rfcs
-[Rust RFC process]: https://github.com/rust-lang/rfcs
-[Ember RFC process]: https://github.com/emberjs/rfcs
-[Vue RFC process]: https://github.com/vuejs/rfcs
+[react rfc process]: https://github.com/reactjs/rfcs
+[rust rfc process]: https://github.com/rust-lang/rfcs
+[ember rfc process]: https://github.com/emberjs/rfcs
+[vue rfc process]: https://github.com/vuejs/rfcs
 [core team]: https://github.com/orgs/ti-community-infra/people

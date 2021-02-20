@@ -27,7 +27,7 @@ defined here.
 
 # Drawbacks
 
-Why should we *not* do this? Please consider:
+Why should we _not_ do this? Please consider:
 
 - implementation cost, both in term of code size and complexity
 - the impact on teaching people
