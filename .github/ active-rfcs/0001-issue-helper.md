@@ -1,21 +1,19 @@
 - Feature Name: Issue Helper
 - Start Date: 2020-02-20
-- Reference Issues: 
-- Implementation PR: 
+- Reference Issues:
+- Implementation PR:
 
 # Summary
 
-Brief explanation of the feature.
+We'll use GitHub Issue [contact_links](https://docs.github.com/en/github/building-a-strong-community/configuring-issue-templates-for-your-repository#configuring-the-template-chooser) to create bug reports, and in contact_links we'll put an external web page called issue-helper to help you create bug reports in a standard format.
 
 # Motivation
 
-Why are we doing this? What use cases does it support? What is the expected
-outcome?
+In the past, TiDB's code repository used GitHub Issues to create bug reports, but because GitHub Issues use markdown to organize and write the report content. This caused our bug reports to be missing the basic information needed to reproduce the bug, making it impossible for our developers to reproduce the bug.
 
-Please focus on explaining the motivation so that if this RFC is not accepted,
-the motivation could be used to develop alternative solutions. In other words,
-enumerate the constraints you are trying to solve without coupling them too
-closely to the solution you have in mind.
+Also, as our bug reports require more and more information, the issue templates become more and more complex, making it difficult for users or contributors to fill out the templates.
+
+So we can use GitHub Issue's contact_links to develop a web page to help and guide people through the process of filling out a bug report. This will help us collect bug reports in a better and more standard way and make it easier for users and contributors to fill them out.
 
 # Detailed design
 
