@@ -45,7 +45,7 @@ The API looks like this: https://github.com/pingcap/tidb/issues/new?title=exampl
 
 The main issues we need to focus on in TiDB are divided into two categories, one is [Bug Report](https://github.com/pingcap/tidb/blob/master/.github/ISSUE_TEMPLATE/bug-report.md) and the other is [New Feature Request](https://github.com/pingcap/tidb/blob/master/.github/ISSUE_TEMPLATE/feature-request.md).
 
-So our Issue Helper focuses on these two types of reports and develops forms for it and then fills them back into the GitHub Issue.
+So our Issue Helper focuses on these two types of reports and develops forms for them and then fills them back into the GitHub Issue.
 
 ### Bug Report Template
 
