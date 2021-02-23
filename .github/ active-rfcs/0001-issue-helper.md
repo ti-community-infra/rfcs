@@ -1,11 +1,11 @@
-- Feature Name: Issue Helper
+- Feature Name: TiDB Issue Helper
 - Start Date: 2020-02-20
 - Reference Issues:
 - Implementation PR:
 
 # Summary
 
-We'll use GitHub Issue [contact_links](https://docs.github.com/en/github/building-a-strong-community/configuring-issue-templates-for-your-repository#configuring-the-template-chooser) to create bug reports, and in contact_links we'll put an external web page called issue-helper to help you create bug reports in a standard format.
+We'll use GitHub Issue [contact_links](https://docs.github.com/en/github/building-a-strong-community/configuring-issue-templates-for-your-repository#configuring-the-template-chooser) to create issues, and in contact_links we'll put an external web page called issue-helper to help us create issues in a standard format.
 
 # Motivation
 
@@ -39,7 +39,7 @@ The effect of using this feature can be seen in the [vuejs repository](https://g
 
 Once we enable external links, we can direct the user or contributor to a web page that we've developed, where we'll use a standard form for the user or contributor to fill out the report, and then we'll use the [GitHub Issue creation API](https://docs.github.com/en/github/managing-your-work-on-github/about-automation-for-issues-and-pull-requests-with-query-parameters#supported-query-parameters) to resubmit the form to GitHub and create the Issue.
 
-The API looks like this: https://github.com/pingcap/tidb/issues/new?title=example&body=Form Content
+The API looks like this: https://github.com/pingcap/tidb/issues/new?title=example&body=FormContent
 
 ## TiDB Issue Helper
 
