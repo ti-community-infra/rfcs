@@ -43,7 +43,7 @@ This would allow us to use the plugin to mark the lifecycle of each issue or PR,
 So we can combine this with the [commenter](https://github.com/kubernetes/test-infra/tree/master/robots/commenter) tool from the k8s community to scan and reply regularly.
 Using this tool we can define several [prow jobs](https://github.com/kubernetes/test-infra/blob/master/config/jobs/README.md#adding-or-updating-jobs) to execute periodically, please refer to [these configurations](https://github.com/ti-community-infra/configs/blob/main/prow/jobs/ti-community-infra/org/lifecycle-periodics.yaml) for specific examples.
 
-With the above two tools we can automate the lifecycle management and tagging. This is an [example](https://github.com/ti-community-infra/ti-community-bot/issues/135#issuecomment-782807868).  (It's working, but there are problems with the lifecycle and permission definitions)
+With the above two tools we can automate the lifecycle management and tagging. This is an [example](https://github.com/ti-community-infra/ti-community-bot/issues/135#issuecomment-782807868). (It's working, but there are problems with the lifecycle and permission definitions)
 
 Finally, we need to define the permissions for using the plugin, and since this will involve all issues and PRs, we need to control the permissions to Organization members. (For now, only reviewer and above roles will be invited to the Org)
 
