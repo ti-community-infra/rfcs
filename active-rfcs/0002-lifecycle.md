@@ -18,16 +18,16 @@ The result is that these issues may never be fixed, but they will not be closed 
 Define several life cycles for an Issue or PR as follows:
 
 - inactive
-  - status: 10 days without any response
+  - status: 10 days without any update
   - label: lifecycle/inactive
 - stale
-  - status: 10(inactive)+90 days without any response
+  - status: 10(inactive)+90 days without any update
   - label: lifecycle/stale
 - rotten
-  - status: 90(stale)+30 days without any response
+  - status: 90(stale)+30 days without any update
   - label: lifecycle/rotten
 - frozen
-  - status: If an Issue or PR is inactive or stale/rotten, but you want to continue tracking it, use this lifecycle and it will not be closed automatically even if there is no response for a long time
+  - status: If an Issue or PR is inactive or stale/rotten, but you want to continue tracking it, use this lifecycle and it will not be closed automatically even if there is no update for a long time
   - label: lifecycle/frozen
 
 In addition, there are two operations, close and reopen.
