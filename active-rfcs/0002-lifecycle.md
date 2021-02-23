@@ -5,7 +5,7 @@
 
 # Summary
 
-We will develop a tichi plugin called lifecycle to distinguish and track the status of each Issue or PR.
+We will develop a tichi plugin called lifecycle to track the status of each Issue or PR.
 
 # Motivation
 
