@@ -1,4 +1,4 @@
-- Feature Name: TiDB Issue Helper
+- Feature Name: Issue Helper
 - Start Date: 2020-02-20
 - Reference Issues:
 - Implementation PR:
