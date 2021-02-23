@@ -9,7 +9,7 @@ We'll use GitHub Issue [contact_links](https://docs.github.com/en/github/buildin
 
 # Motivation
 
-In the past, TiDB's code repository used GitHub Issues to create bug reports, but because GitHub Issues use markdown to organize and write the report content. This caused our bug reports to be missing the basic information needed to reproduce the bug, making it impossible for our developers to reproduce the bug.
+In the past, TiDB's code repository used GitHub Issues to create bug reports, but because GitHub Issues use markdown to organize and write the report content. This form is simple but not structured, and not easy to use, so information transmission is inefficient.
 
 Also, as our bug reports require more and more information, the issue templates become more and more complex, making it difficult for users or contributors to fill out the templates.
 
