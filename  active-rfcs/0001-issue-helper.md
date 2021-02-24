@@ -25,9 +25,6 @@ GitHub Issues provides a way to configure external links. We can use the followi
 // .github/ISSUE_TEMPLATE/config.yml
 blank_issues_enabled: false
 contact_links:
-  - name: Ask TiDB User Group Support
-    url: https://asktug.com/
-    about: Please ask and answer questions here.
   - name: Create new issue
     url: https://prow.tidb.io/tichi/new-issue
     about: Please use the following link to create a new issue.
@@ -79,6 +76,8 @@ So our Issue Helper focuses on these two types of reports and develops forms for
 ```
 
 We will develop the form based on the above two templates, and all the above questions will be filled in as a field by the user or contributor in the page we develop.
+
+In addition, we need to support auto-completion and search for related issues that have been created when a user or contributor fills in the issue title. This feature will use [GitHub's search API](https://docs.github.com/en/rest/reference/search#search-issues-and-pull-requests).
 
 For specific page style implementations, we can refer to the following two examples:
 
