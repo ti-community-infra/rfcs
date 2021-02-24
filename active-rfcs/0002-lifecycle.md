@@ -34,7 +34,7 @@ Define several life cycles for an Issue or PR as follows:
 
 In addition, there are two operations, close and reopen. Rotten Issue or PR will be automatically closed after 10(inactive)+90(stale)+30(rotten)+30 days.
 
-## Commands supported by the plugin
+## Supported commands
 
 After defining the above lifecycle and operations, the plugin will respond to the following commands:
 
@@ -44,7 +44,7 @@ After defining the above lifecycle and operations, the plugin will respond to th
 
 This would allow us to use the plugin to mark the lifecycle of each issue or PR, but this would be very inefficient and silly to handle manually.
 
-## With automatic scanning
+## Automatic scanning
 
 We can combine this with the [commenter](https://github.com/kubernetes/test-infra/tree/master/robots/commenter) tool from the k8s community to scan and reply regularly.
 Using this tool we can define several [prow jobs](https://github.com/kubernetes/test-infra/blob/master/config/jobs/README.md#adding-or-updating-jobs) to execute periodically, please refer to [these configurations](https://github.com/ti-community-infra/configs/blob/main/prow/jobs/ti-community-infra/org/lifecycle-periodics.yaml) for specific examples.
