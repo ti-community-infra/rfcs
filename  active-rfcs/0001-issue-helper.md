@@ -38,7 +38,7 @@ Once we enable external links, we can direct the user or contributor to a web pa
 
 The API looks like this: https://github.com/pingcap/tidb/issues/new?title=example&body=FormContent
 
-## TiDB Issue Helper
+## Issue Helper
 
 The main issues we need to focus on in TiDB are divided into two categories, one is [Bug Report](https://github.com/pingcap/tidb/blob/master/.github/ISSUE_TEMPLATE/bug-report.md) and the other is [New Feature Request](https://github.com/pingcap/tidb/blob/master/.github/ISSUE_TEMPLATE/feature-request.md).
 
