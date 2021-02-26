@@ -77,7 +77,7 @@ So our Issue Helper focuses on these two types of reports and develops forms for
 
 We will develop the form based on the above two templates, and all the above questions will be filled in as a field by the user or contributor in the page we develop.
 
-In addition, we need to support auto-completion and search for related issues that have been created when a user or contributor fills in the issue title. This feature will use [GitHub's search API](https://docs.github.com/en/rest/reference/search#search-issues-and-pull-requests).  This feature will only support displaying the first 5 results and provide a button to jump to the GitHub search page to see all results.
+In addition, we need to support auto-completion and search for related issues that have been created when a user or contributor fills in the issue title. This feature will use [GitHub's search API](https://docs.github.com/en/rest/reference/search#search-issues-and-pull-requests). This feature will only support displaying the first 5 results and provide a button to jump to the GitHub search page to see all results.
 
 For specific page style implementations, we can refer to the following two examples:
 
