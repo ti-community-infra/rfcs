@@ -31,7 +31,7 @@ In addition, if the external contributor is a first-time contributor, we need to
 ### Definition:
 
 - Label Name: `first-time-contributor`
-- Usage: First contribution from external contributors
+- Usage: First contribution
   - We will determine if it is a first-time contribution based on the [author_association](https://docs.github.com/en/graphql/reference/enums#commentauthorassociation) field of the PR.
 - Available API: https://github.com/kubernetes/test-infra/pull/21066
 
