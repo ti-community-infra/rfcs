@@ -32,7 +32,7 @@ Define several life cycles for an Issue or PR as follows:
   - status: If an Issue or PR is inactive or stale/rotten, but you want to continue tracking it, use this lifecycle and it will not be closed automatically even if there is no update for a long time
   - label: lifecycle/frozen
 
-In addition, there are two operations, close and reopen. Rotten Issue or PR will be automatically closed after 10(inactive)+90(stale)+30(rotten)+30 days. All updates refer to the `updated_at` field of Issue and PR, and we use [this search API](https://docs.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests#search-by-when-an-issue-or-pull-request-was-created-or-last-updated) to search during scanning.
+In addition, there are two operations, close and reopen. All updates refer to the `updated_at` field of Issue and PR, and we use [this search API](https://docs.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests#search-by-when-an-issue-or-pull-request-was-created-or-last-updated) to search during scanning.
 
 ## Supported commands
 
