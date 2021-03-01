@@ -17,7 +17,7 @@ We need to distinguish between internal and external contributor PRs, and priori
 
 For external contributors, we will label their PR with `contribution`.
 
-Definition:
+### Definition:
 
 - Label Name: `contribution`
 - Usage: External Contributors
@@ -28,7 +28,7 @@ Definition:
 
 In addition, if the external contributor is a first-time contributor, we need to tag not only `contribution` but also `first-time-contributor`.
 
-Definition:
+### Definition:
 
 - Label Name: `first-time-contributor`
 - Usage: First contribution from external contributors
