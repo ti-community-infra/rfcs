@@ -18,8 +18,9 @@ We need to distinguish between internal and external contributor PRs, and priori
 For external contributors, we will label their PR with `contribution`.
 
 Definition:
+
 - Label Name: `contribution`
-- Usage:  External Contributors
+- Usage: External Contributors
   - We will determine if it is an external contributor by whether it is an org member or not.
 - Available API: https://github.com/kubernetes/test-infra/blob/9b84ac948f6eb781a318fa431d547e577ee668e4/prow/github/client.go#L67
 
@@ -28,8 +29,9 @@ Definition:
 In addition, if the external contributor is a first-time contributor, we need to tag not only `contribution` but also `first-time-contributor`.
 
 Definition:
+
 - Label Name: `first-time-contributor`
-- Usage:  First contribution from external contributors
+- Usage: First contribution from external contributors
   - We will determine if it is a first-time contribution based on the [author_association](https://docs.github.com/en/graphql/reference/enums#commentauthorassociation) field of the PR.
 - Available API: https://github.com/kubernetes/test-infra/pull/21066
 
